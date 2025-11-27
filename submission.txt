@@ -1,0 +1,28 @@
+Nama: [Aria Riski Ramadhan]
+
+---
+Panduan Penggunaan
+---
+
+**Persiapan:**
+1.  Buka terminal, navigasi ke root direktori proyek ini.
+2.  (Opsional) Buat dan aktifkan virtual environment:
+    python -m venv venv
+    venv\Scripts\activate  # Windows
+    source venv/bin/activate # macOS/Linux
+3.  Instal dependensi:
+    pip install -r requirements.txt
+
+**1. Menjalankan Pipeline ETL:**
+Dari direktori root proyek, jalankan:
+python main.py
+   
+**2. Menjalankan Unit Tests:**
+python -m pytest tests
+
+**3. Menjalankan Test Coverage:**
+python -m pytest tests -v --cov --cov-report=html
+
+
+Link CSV
+https://docs.google.com/spreadsheets/d/1jo5MFyc1SXzgAeFqR9QLKlHIyPexXeh3LCbKrKW_hdI/edit?gid=0#gid=0
